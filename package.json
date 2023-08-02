@@ -1,0 +1,15 @@
+{
+    "name": "os-webcomponent",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "esbuild src/Component.ts --bundle --minify --outfile=dist/component.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "esbuild": "^0.18.11",
+        "typescript": "^5.1.6"
+    }
+}
